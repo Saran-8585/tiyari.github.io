@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(241, 215, 241);
+}
+
+.carousel-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 900px; /* Adjust width as needed */
+    margin: auto;
+    overflow: hidden;
+    background-color:  rgb(241, 215, 241); /* Background color for the carousel */
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+
+.carousel-item img {
+    width: 200px; /* Fixed width for the carousel images */
+    height: auto;
+    margin: auto;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(7, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(60, 1, 60); /* Header background color */
+    height: 80px; /* Adjust header height as needed */
+    color: white; /* Text color for header content */
+}
+
+.logo img {
+    width: 80px; /* Adjust logo size as needed */
+    height: auto;
+    margin-left: 0px; /* Add left margin for logo */
+}
+
+header h1 {
+    margin: 20;
+    font-size: 2rem;
+    text-align: center;
+}
+section h1{
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Changed from list-style to list-style-type */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Changed display to inline-block */
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.image-container img {
+    width: 200px; /* Adjust image size as needed */
+    height: auto;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}
